@@ -939,7 +939,29 @@ mark {
         width: 330px;
     }
     .timeline ul li:nth-child(even) div {
-        left: -330px;
+        left: -360px;
+    }
+
+
+    /* SECTION 4: Projects */
+    .projects-section {
+        /* margin: 200px;
+        padding: 0 5px; */
+        margin-left: 120px;
+    }
+    .container h1 {
+        margin-left: 60px;
+    }
+    .container .box-container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(270px, 1fr));
+        gap: 1% 15%;
+    }
+
+    .container .box-container .card {
+        width: 120%;
+        max-width: 550px; 
+        margin-bottom: 20px;
     }
 }
 
@@ -1116,6 +1138,14 @@ mark {
         width: 250px;
     }
     
+    /* SECTION 3: Experience */
+    .timeline ul li div {
+        width: 290px;
+    }
+    .timeline ul li:nth-child(even) div {
+        left: -320px;
+    }
+    
     /* SECTION 5: Contact */
     .contact-section .group form label,
     .contact-section .group form input,
@@ -1136,13 +1166,17 @@ mark {
     }
 
     /* SECTION 3: Experience */
+    .timeline ul li div {
+        width: 260px;
+    }
     .timeline ul li:nth-child(odd) div {
         left: 31px;
     }
     
     .timeline ul li:nth-child(even) div {
-        left: -330px;
+        left: -290px;
     }
+
 }
 
 @media (max-width: 630px) {
@@ -1323,60 +1357,55 @@ mark {
 
     /* SECTION 3: Experience */
     .timeline ul li div {
-        width: 360px;
-        padding: 1rem;
+        width: 230px;
     }
     .timeline ul li:nth-child(odd) div {
-        left: 20px;
+        left: 31px;
     }
-    
     .timeline ul li:nth-child(even) div {
-        left: 20px;
+        left: -260px;
     }
+
 
     /* SECTION 4: Projects */
     .projects-section {
-        /* margin: 100px;
-        padding: 0 15px; */
-        margin-right: 95px;
+        /* margin: 200px;
+        padding: 0 5px; */
+        margin-left: 40px;
     }
     .container h1 {
-        text-align: center;
-        margin-right: 85px;
+        margin-left: 160px;
     }
     .card h2 {
-        font-size: 23px;
+        font-size: 19px;
     }
-    .card p {
+    .card h3 {
         font-size: 17px;
     }
-    .container .box-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        max-width: 800px;
-        gap: 5% 20%;
-        /* padding: 0.1rem; */
+    .card p {
+        font-size: 14px;
     }
-
     .container .box-container .card {
         width: 130%;
-        max-width: 600px; 
+        max-width: 550px; 
         margin-bottom: 20px;
     }
+}
 
-    /* SECTION 5: Contact */
-    .contact-section p {
-        font-size: 16px;
-    }
+@media (max-width: 530px) {
 
-    .contact-section .group form label,
-    .contact-section .group form input,
-    .contact-section .group form textarea,
-    .contact-section .group form button {
-        width: 350px;
+    /* SECTION 3: Experience */
+    .timeline ul li div {
+        width: 200px;
     }
+    .timeline ul li:nth-child(odd) div {
+        left: 31px;
+    }
+    .timeline ul li:nth-child(even) div {
+        left: -230px;
+    }
+        
+        
 }
 
 @media (max-width: 515px) {  /* Media query that changes <nav> element when browser window's at most 515px wide */
@@ -1437,14 +1466,13 @@ mark {
 
     /* SECTION 3: Experience */
     .timeline ul li div {
-        width: 260px;
-        padding: 1rem;
+        width: 180px;
     }
     .timeline ul li:nth-child(odd) div {
-        left: 21px;
+        left: 31px;
     }
     .timeline ul li:nth-child(even) div {
-        left: 21px;
+        left: -210px;
     }
 
     .footer #to-top {
@@ -1505,19 +1533,22 @@ mark {
 
     /* SECTION 3: Experience */
     .timeline ul li div {
-        width: 260px;
-        padding: 1rem;
+        width: 170px;
     }
     .timeline ul li:nth-child(odd) div {
-        left: 21px;
+        left: 31px;
     }
     .timeline ul li:nth-child(even) div {
-        left: 21px;
+        left: -200px;
     }
 
     /* SECTION 4: Projects */
+
+    .box-container {
+        margin-right: 20px;
+    }
     .container .box-container .card {
-        width: 190%;
+        width: 130%;
         max-width: 550px; 
         margin-bottom: 40px;
     }
@@ -1592,22 +1623,29 @@ mark {
 
     /* SECTION 3: Experience */
     .timeline ul li div {
-        width: 250px;
-        padding: 1rem;
+        width: 170px;
     }
     .timeline ul li:nth-child(odd) div {
-        left: 21px;
+        left: 31px;
     }
     .timeline ul li:nth-child(even) div {
-        left: 21px;
+        left: -200px;
     }
 
+
     /* SECTION 4: Projects */
+    .box-container {
+        margin-right: 20px;
+    }
+    .card p {
+        font-size: 19px;
+    }
     .container .box-container .card {
-        width: 170%;
+        width: 130%;
         max-width: 550px; 
         margin-bottom: 40px;
     }
+
 
     /* SECTION 5: Contact */
     .contact-section {
@@ -1655,6 +1693,17 @@ mark {
     }
     .about-me-section .about .text dl dt {
         font-size: 14px;
+    }
+
+    /* SECTION 3: Experience */
+    .timeline ul li div {
+        width: 160px;
+    }
+    .timeline ul li:nth-child(odd) div {
+        left: 31px;
+    }
+    .timeline ul li:nth-child(even) div {
+        left: -190px;
     }
 }
 
@@ -1710,14 +1759,13 @@ mark {
 
     /* SECTION 3: Experience */
     .timeline ul li div {
-        width: 220px;
-        padding: 1rem;
+        width: 150px;
     }
     .timeline ul li:nth-child(odd) div {
-        left: 21px;
+        left: 31px;
     }
     .timeline ul li:nth-child(even) div {
-        left: 21px;
+        left: -180px;
     }
 
 
@@ -1727,6 +1775,64 @@ mark {
     .contact-section .group form textarea,
     .contact-section .group form button {
         width: 270px;
+    }
+}
+
+
+@media (max-width: 360px) {
+
+    /* SECTION 3: Experience */
+    .timeline h2 {
+        font-size: 15px;
+    }
+    .timeline h3 {
+        font-size: 15px;
+    }
+
+
+    .timeline ul li div {
+        width: 140px;
+    }
+    .timeline ul li:nth-child(odd) div {
+        left: 31px;
+    }
+    .timeline ul li:nth-child(even) div {
+        left: -170px;
+    }
+
+    /* SECTION 4: Projects */
+    .box-container {
+        margin-right: -50px;
+    }
+    .container h1 {
+        margin-right: 6rem;
+    }
+    .card h2 {
+        font-size: 19px;
+    }
+    .card h3 {
+        font-size: 17px;
+    }
+    .card p {
+        font-size: 14px;
+    }
+    .container .box-container .card {
+        width: 100%;
+        max-width: 550px; 
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 350px) {
+    /* SECTION 3: Experience */
+    .timeline ul li div {
+        width: 130px;
+    }
+    .timeline ul li:nth-child(odd) div {
+        left: 31px;
+    }
+    .timeline ul li:nth-child(even) div {
+        left: -160px;
     }
 }
 
