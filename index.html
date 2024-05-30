@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  <!--Standard character set including all keys/special characters/emojis-->
+    <link rel="icon" type="image/x-icon" href="images/hyacinth.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT">
+    <meta name="description" content="Yolanda's Portfolio Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="Yolanda Thant">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Yolanda Thant</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="main.js"></script>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <a href="#" class="logo">Yolanda Thant</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="#about-me-content" style="--i:0">About Me</a>
+            <a href="#skills-content" style="--i:1;">Skills</a>
+            <a href="#experience-content" style="--i:2;">Experience</a>
+            <a href="#projects-content" style="--i:3;">Projects</a>
+            <a href="#contact-content" style="--i:4;">Contact</a>
+        </nav>
+    </header>
+    
+    <!-- SOCIAL BUTTONS -->
+    <div class="social-buttons">
+        <a href="https://github.com/YolandaThant" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a>
+        <a href="https://www.linkedin.com/in/kay-zin-thant-14a2b8234/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+        <a href="https://www.instagram.com/yolandaleekzt/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        <a href="mailto:yolanda.lee159@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+    </div>
+
+<main id="">
+    <!-- SECTION 0: Hero -->
+    <section id="hero" class="hero-section">
+        <div class="contain">
+            <span class="text1">Hello !</span>
+            <span class="text2">Welcome to the Data Frontier:</span>
+            <span class="text2">Join Me On My Tech Quest Adventure</span>
+        </div>
+
+        <!-- SCROLL DOWN ARROW -->
+        <div class="scrollDown "></div>
+    </section>
+<!-- </main> -->
+
+<!-- SECTION 1: About Me -->
+<!-- <main id="about-me-content"> -->
+    <section id="about-me-content" class="about-me-section reveal-on-scroll">
+        <h1>About Me</h1>
+        <div class="about">
+            <div class="about-me">
+                <img src="images/hero-headshot.jpg" alt="Yolanda Thant headshot">
+            </div>
+            <div class="text">
+                <span class="emoji">👋</span> 
+                <p1>Hello, I'm Yolanda!</p1>
+                <p>📓 I am an incoming 2nd year student at the <mark>University of Toronto</mark> pursuing a <mark>Specialist in Computer Science</mark> and a <mark>Minor in Statistics.</mark></p>
+                <p>👩🏻‍💻 My interest lies in integrating my <mark>Focus in Artificial Intelligence</mark> and <mark>Computer Vision.</mark> I am particularly interested in applying cutting-edge AI algorithms and computer vision techniques in real-world scenarios.</p>
+                <p>🌱 I also look forward to building a career in <mark>Data Science</mark>—to further explore the intersections of AI, Computer Vision, and Data Analytics to drive innovation.</p>
+                <dl>
+                    <dt>Relevant courses I am currently taking 📚 & have taken ✅ :</dt>
+                    <dd>✅ Foundations of Computer Science I</dd>
+                    <dd>✅ Foundations of Computer Science II</dd>
+                    <dd>✅ Introduction to Statistical Reasoning & Data Science</dd>
+                </dl>
+            </div>
+        </div>
+    </section>
+<!-- </main> -->
+
+<!-- <main id="skills-content"> -->
+    <!-- SECTION 2: Skills -->
+    <section id="skills-content" class="skills-section reveal-on-scroll">
+        <h2>Skills</h2>
+        <div class="slider">
+            <div class="slide-track">
+                <!-- Img Code -->
+                <div class="slide">
+                    <img src="images/html-logo.webp" alt="html logo">
+                    <p>HTML</p>
+                </div>
+                <div class="slide">
+                    <img src="images/css-logo.png" alt="css logo">
+                    <p>CSS</p>
+                </div>
+                <div class="slide">
+                    <img src="images/js-logo.png" alt="js logo">
+                    <p>JavaScript</p>
+                </div>
+                <div class="slide">
+                    <img src="images/py-logo.png" alt="python logo">
+                    <p>Python</p>
+                </div>
+                <div class="slide">
+                    <img src="images/java-logo.webp" alt="java logo">
+                    <p>Java</p>
+                </div>
+                <div class="slide">
+                    <img src="images/r-logo.png" alt="R logo">
+                    <p>R</p>
+                </div>
+                <div class="slide">
+                    <img src="images/jupyter-logo.png" alt="Jupyter logo">
+                    <p>Jupyter</p>
+                </div>
+                <div class="slide">
+                    <img src="images/overleaf-logo.png" alt="Overleaf logo">
+                    <p>Overleaf</p>
+                </div>
+                <div class="slide">
+                    <img src="images/flask-logo.svg" alt="flask logo">
+                    <p>Flask</p>
+                </div>
+                <!-- Duplicate images -->
+                <div class="slide">
+                    <img src="images/html-logo.webp" alt="html logo">
+                    <p>HTML</p>
+                </div>
+                <div class="slide">
+                    <img src="images/css-logo.png" alt="css logo">
+                    <p>CSS</p>
+                </div>
+                <div class="slide">
+                    <img src="images/js-logo.png" alt="js logo">
+                    <p>JavaScript</p>
+                </div>
+                <div class="slide">
+                    <img src="images/py-logo.png" alt="python logo">
+                    <p>Python</p>
+                </div>
+                <div class="slide">
+                    <img src="images/java-logo.webp" alt="java logo">
+                    <p>Java</p>
+                </div>
+                <div class="slide">
+                    <img src="images/r-logo.png" alt="R logo">
+                    <p>R</p>
+                </div>
+                <div class="slide">
+                    <img src="images/jupyter-logo.png" alt="Jupyter logo">
+                    <p>Jupyter</p>
+                </div>
+                <div class="slide">
+                    <img src="images/overleaf-logo.png" alt="Overleaf logo">
+                    <p>Overleaf</p>
+                </div>
+                <div class="slide">
+                    <img src="images/flask-logo.svg" alt="flask logo">
+                    <p>Flask</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- </main> -->
+
+<!-- <main id="experience-content"> -->
+    <!-- SECTION 3: Experience -->
+    <section id="experience-content" class="timeline reveal-on-scroll">
+        <h1>Experience</h1>
+        <ul>
+            <li>
+                <div>
+                    <img src="images/cssu-logo.png" alt="">
+                    <h2>Computer Science Student Union</h2>
+                    <h3>Office Operations Volunteer | May 2024 - Present</h3>
+                    <p>Manage store operations using Square, oversee the 
+                        Computer Science Student Union lounge, and address 
+                        visitor inquiries to promote a welcoming environment.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/student-life.png" alt="">
+                    <h2>Volunteer Note-Taking - UofT Student Life</h2>
+                    <h3>Volunteer Note-Taker| Sept 2023 - Present</h3>
+                    <p>Upload notes of at least two H credit/one Y credit courses 
+                        during an academic year.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/mcc-logo.png" alt="">
+                    <h2>Myanmar Culture Club</h2>
+                    <h3>Member | Sept 2023 - Present</h3>
+                    <p>Organize Multicultural Munch events to share Burmese desserts 
+                        and advocate for Burmese culture, heritage, and mindfulness 
+                        through guided meditations.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/child-cs.png" alt="">
+                    <h2>CHILD Community Service</h2>
+                    <h3>President | Aug 2022 - May 2023</h3>
+                    <p>Taught environmental consciousness and fundamental computer 
+                        skills to 33 students with inadequate access to schooling.
+                    </p>
+                    <p>Designed after school weekly sessions for the students to learn 
+                        basic parts of a computer and enhance creativity through open-ended 
+                        drawing tools on Microsoft Word.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/sys-logo.png" alt="">
+                    <h2>Seinn Yaung So Manufacturing Co.,Ltd.</h2>
+                    <h3>Software Trainer | June 2022 - Aug 2022</h3>
+                    <p>Developed a curriculum to enhance digital proficiency among 44 vetted 
+                        employees, focusing on essential productivity tools within Google Workspace 
+                        Software and Microsoft Office Suite.
+                    </p>
+                    <p>Conducted weekly training sessions to create and collaborate on presentations 
+                        (Google Slides, PowerPoint), documents (Google Docs, Word), and spreadsheets 
+                        (Google Sheets, Excel).
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+<!-- </main> -->
+
+<!-- <main id="projects-content"> -->
+    <!-- SECTION 4: PROJECTS -->
+    <section id="projects-content" class="projects-section reveal-on-scroll">
+        <div class="container">
+            <h1>Projects</h1>
+            <div class="box-container">
+                <div class="card">
+                    <h2>Public Health Progress Towards SDG Goal 3</h2>
+                    <h3>R, RStudio</h3>
+                    <p>A lot of Southern Asian countries are facing serious 
+                        public health issues. By comparing the progress of South Asian 
+                        countries towards SDG Goal 3 with the rest of the world, we drew conclusions 
+                        about how UNICEF could accelerate their progress. We compared three aspects: 
+                        the under-five child mortality rate, the association between available family 
+                        planning resources and maternal mortality, & the clusters of countries with similar progress.
+                    </p>
+                    <a href="https://github.com/YolandaThant/Public-Health-Progress-Towards-SDG-Goal-3" target="_blank" rel="noopener noreferrer">Learn More</a>
+                </div>
+                <div class="card">
+                    <h2>Spotify Playlist Generator</h2>
+                    <h3>Python, HTML, CSS, JavaScript, Spotify API, Spotipy, Kaggle, Flask</h3>
+                    <p>This program is desgined to create a personalized music recommendation system that enhances the 
+                        listening experience by tailoring it to user preferences. Unlike traditional genre-based methods, 
+                        this system analyzes specific song attributes such as danceability, speechiness, and tempo to deliver 
+                        more precise recommendations. This program then provides a customizable and user-friendly interface for 
+                        seamless playlist creation on Spotify.
+                    </p>
+                    <a href="https://github.com/YolandaThant/CSC111Project2-Spotify-Playlist-Generator" target="_blank" rel="noopener noreferrer">Learn More</a>
+                </div>
+                <div class="card">
+                    <h2>Text-Adventure Game</h2>
+                    <h3>Python</h3>
+                    <p>This project involves developing a text-adventure game in Python, 
+                        set on the University of Toronto campus. The player has an important exam in the evening 
+                        and has lost three crucial items after a late-night study session: T-card, lucky exam pen, 
+                        and handwritten cheat sheet. The player's goal is to explore various campus locations to find 
+                        them before the exam starts. To win & successfully retrieve all items and reach 
+                        the exam room on time, they must complete three of our enhancement games: RiddeGame, MonsterGame, and BahenLantern.
+                    </p>
+                    <a href="https://github.com/YolandaThant" target="_blank" rel="noopener noreferrer">Learn More</a>
+                </div>
+                <div class="card">
+                    <h2>BallerDream Team Registration Website</h2>
+                    <h3>HTML, CSS, JavaScript</h3>
+                    <p>I created a user-friendly team registration website for BallerDreams Community Service, 
+                        a non-profit organization at my high school. BallerDreams aims to provide opportunities 
+                        for the underprivileged in Myanmar through sports events. This website streamlines the 
+                        registration process, making it more convenient for teams to participate in these impactful community service initiatives.
+                    </p>
+                    <a href="https://github.com/YolandaThant/BallerDreams.github.io" target="_blank" rel="noopener noreferrer">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- </main> -->
+
+<!-- <main id="contact-content"> -->
+    <!-- SECTION 5: Contact -->
+    <section id="contact-content" class="contact-section">
+        <h2>Get In Touch With Me</h2>
+        <p>🚀 Let's connect and explore the endless possibilities together!</p>
+
+        <div class="group">
+            <form id="contact-form">
+                <label for="user_name">Name</label>
+                <input type="text" id="user_name">
+
+                <label for="user_email">Email</label>
+                <input type="email" id="user_email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" cols="30" rows="10" required></textarea>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+<!-- </main> -->
+    <footer class="footer">
+        <a href="#">
+            <div id="to-top">
+                <i class="fa-solid fa-angles-up"></i>
+            </div>
+        </a>
+
+        <div class="copyright">
+            &copy; COPYRIGHT 2024
+        </div>
+        <div class="credits">
+            BUILT WITH <i class="fa-solid fa-heart"></i> BY YOLANDA THANT - ALL RIGHTS RESERVED
+        </div>
+    </footer>
+</main>
+</body>
+</html>
