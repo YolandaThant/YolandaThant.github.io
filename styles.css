@@ -1454,6 +1454,22 @@ mark {
 
 @media (max-width: 420px) { /* Media query that changes <nav> element when browser window's at most 420px wide */
     
+    /* SECTION 0: Hero */
+    @keyframes text {
+        0% {
+            color: black;
+            margin-bottom: -150px;
+        }
+        30% {
+            letter-spacing: 11px;
+            margin-bottom: -150px;
+        }
+        85% {
+            letter-spacing: 5px;
+            margin-bottom: -150px;
+        }
+    }
+    
     /* SECTION 1: About Me */
     .about-me-section {
         margin: 10%;
@@ -1572,6 +1588,22 @@ mark {
 }
 
 @media (max-width: 390px) {
+
+    /* SECTION 0: Hero */
+    @keyframes text {
+        0% {
+            color: black;
+            margin-bottom: -155px;
+        }
+        30% {
+            letter-spacing: 11px;
+            margin-bottom: -155px;
+        }
+        85% {
+            letter-spacing: 5px;
+            margin-bottom: -155px;
+        }
+    }
 
     /* SECTION 1: About Me */
     .about-me-section {
