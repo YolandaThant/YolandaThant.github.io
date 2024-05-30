@@ -1200,12 +1200,11 @@ mark {
     .projects-section {
         /* margin: 200px;
         padding: 0 15px; */
-        margin-left: 4.5rem;
+        margin-left: 1rem;
     }
     .container h1 {
-        margin-left: 135px;
+        margin-left: 180px;
     }
-
     .container .box-container {
         display: grid;
         grid-template-columns: repeat(1, minmax(270px, 1fr));
@@ -1214,9 +1213,9 @@ mark {
     }
 
     .container .box-container .card {
-        width: 120%;
+        width: 125%;
         /* max-width: 550px;  */
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 }
 
