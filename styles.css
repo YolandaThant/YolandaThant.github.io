@@ -528,7 +528,7 @@ mark {
     position: relative;
     width: 6px;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 50px;  /* timeline line height */
     background-color: #dcdcdc;
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
@@ -581,15 +581,15 @@ mark {
     left: 20%;
     /* background-image: url(images/hyacinth.png);
     background-repeat: no-repeat; */
-    animation: zoomInOut 8s linear infinite;
-    z-index: -1;
+    /* animation: zoomInOut 8s linear infinite; */
+    /* z-index: -1; */
 }
 
 .timeline ul li:nth-child(odd) div {
     left: 31px;
 }
 
-.timeline ul li:nth-child(odd) div::before {
+.timeline ul li:nth-child(odd) div::before {  /* triangles */
     left: -15px;
     border-width: 8px 16px 8px 0;
     border-color: transparent #000 transparent transparent;
@@ -599,7 +599,7 @@ mark {
     left: -429px;
 }
 
-.timeline ul li:nth-child(even) div::before {
+.timeline ul li:nth-child(even) div::before {  /* triangles */
     right: -15px;
     border-width: 8px 0 8px 16px;
     border-color: transparent transparent transparent #000;
@@ -1364,6 +1364,46 @@ mark {
 }
 
 @media (max-width: 390px) {
+
+    /* SECTION 1: About Me */
+    .about-me-section .about .about-me img {
+        width: 190px;
+    }
+
+    .about-me-section .about .text .emoji {
+        font-size: 20px;
+    }
+    
+    p1 {
+        font-family: Oswald;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .about-me-section .about .text p {
+        font-size: 13px;
+        margin-bottom: 27px;
+    }
+    .about-me-section .about .text dl dt {
+        font-size: 13px;
+    }
+    .about-me-section .about .text dl dd {
+        text-indent: 20px;
+        font-size: 13px;
+    }
+
+    /* SECTION 3: Experience */
+    .timeline ul li div {
+        width: 250px;
+        padding: 1rem;
+    }
+    .timeline ul li:nth-child(odd) div {
+        left: 21px;
+    }
+    .timeline ul li:nth-child(even) div {
+        left: 21px;
+    }
+
 
     /* SECTION 5: Contact */
     .contact-section .group form label,
