@@ -1147,16 +1147,76 @@ mark {
 
 @media (max-width: 630px) {
 
+    /* SECTION 1: About Me */
+    .about-me-section .about .about-me img {
+        width: 210px;
+    }
+
+    .about-me-section .about .text .emoji {
+        font-size: 30px;
+    }
+    
+    p1 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 23px;
+        font-weight: bold;
+    }
+    
+    .about-me-section .about .text p {
+        font-size: 17px;
+        margin-bottom: 27px;
+    }
+    .about-me-section .about .text dl dt {
+        font-size: 17px;
+    }
+    .about-me-section .about .text dl dd {
+        text-indent: 20px;
+        font-size: 17px;
+    }
+
+    /* SECTION 3: Experience */
+    .timeline ul li div {
+        width: 260px;
+        padding: 1rem;
+    }
+    .timeline ul li:nth-child(odd) div {
+        left: 30px;
+    }
+    .timeline ul li:nth-child(even) div {
+        left: -290px;
+    }
+
+    .footer #to-top {
+        position: fixed;
+        bottom: 50px;
+        right: 30px;
+        width: 40px;
+        height: 40px;
+        font-size: 25px;   
+    }
+
+
     /* SECTION 4: Projects */
     .projects-section {
-        margin: 100px;
-        padding: 0 15px;
+        /* margin: 200px;
+        padding: 0 15px; */
+        margin-left: 4.5rem;
     }
+    .container h1 {
+        margin-left: 135px;
+    }
+
     .container .box-container {
         display: grid;
         grid-template-columns: repeat(1, minmax(270px, 1fr));
         gap: 40px;
         max-width: 850px; /* Sets a max-width to keep it centered */
+    }
+
+    .container .box-container .card {
+        width: 120%;
+        /* max-width: 550px;  */
+        margin-bottom: 40px;
     }
 }
 
