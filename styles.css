@@ -1411,6 +1411,23 @@ mark {
 }
 
 @media (max-width: 430px) {
+
+    /* SECTION 0: Hero */
+    @keyframes text {
+        0% {
+            color: black;
+            margin-bottom: -150px;
+        }
+        30% {
+            letter-spacing: 11px;
+            margin-bottom: -150px;
+        }
+        85% {
+            letter-spacing: 5px;
+            margin-bottom: -150px;
+        }
+    }
+
     /* SECTION 1: About Me */
     .about-me-section {
         margin: 10%;
