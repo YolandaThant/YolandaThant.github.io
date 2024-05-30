@@ -1274,6 +1274,7 @@ mark {
 
     .about-me-section .about .text .emoji {
         font-size: 18px;
+        margin-right: 2px;
     }
     
     p1 {
@@ -1285,6 +1286,9 @@ mark {
     .about-me-section .about .text p {
         font-size: 15px;
         margin-bottom: 27px;
+    }
+    .about-me-section .about .text dl {
+        line-height: 1.3;
     }
     .about-me-section .about .text dl dt {
         font-size: 15px;
