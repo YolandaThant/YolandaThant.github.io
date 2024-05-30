@@ -1221,6 +1221,15 @@ mark {
 
 @media screen and (max-width: 600px) {  /* Media query that changes <nav> element when browser window's at most 600px wide */
     
+    .footer #to-top {
+        position: fixed;
+        bottom: 50px;
+        right: 30px;
+        width: 40px;
+        height: 40px;
+        font-size: 25px;   
+    }
+    
     /* NAVBAR  */
     .header {
         padding: 1rem 2%; /* Spacing of the words */  /* Space b/w left border + Y & right border + Email icon */
@@ -1265,26 +1274,17 @@ mark {
 
     /* SECTION 3: Experience */
     .timeline ul li div {
-        width: 260px;
+        width: 250px;
         padding: 1rem;
     }
     .timeline ul li:nth-child(odd) div {
         left: 30px;
     }
     .timeline ul li:nth-child(even) div {
-        left: -290px;
+        left: -280px;
     }
 
-    .footer #to-top {
-        position: fixed;
-        bottom: 50px;
-        right: 30px;
-        width: 40px;
-        height: 40px;
-        font-size: 25px;   
-    }
     
-
     /* SECTION 5: Contact */
     .contact-section {
         padding: 0 20px;
