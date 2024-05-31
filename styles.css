@@ -170,11 +170,11 @@ a {  /* anchor tags*/
 
 .scrollDown {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 60px;
-    margin-top: 250px;
+    margin-top: 275px;
 }
 .scrollDown:before {
     content: '';
@@ -243,7 +243,7 @@ a {  /* anchor tags*/
     animation: text 3s 1;
 }
 .text2 {
-    font-size: 26px;
+    font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.5;
     color: rgb(136,91,208);
