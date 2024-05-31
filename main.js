@@ -55,6 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
 // Experience Section 
 document.addEventListener("DOMContentLoaded", function() {
     const checkbox = document.getElementById("check");
@@ -94,6 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+
 // Scrollable arrow to the top
 document.addEventListener('scroll', () => {
     const toTopButton = document.querySelector('#to-top');;
@@ -107,8 +109,7 @@ document.addEventListener('scroll', () => {
 
 
 
-
-
+// Reveal-On-Scroll Arrow Button Effect
 let sections = document.querySelectorAll('section');
 
 window.onscroll = () => {
@@ -125,12 +126,6 @@ window.onscroll = () => {
     })
 }
 
-
-
-
-
-
-// Reveal-On-Scroll Effect
 function reveal() {
     const onscroll = document.querySelectorAll('.reveal-on-scroll');
 
