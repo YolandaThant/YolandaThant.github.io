@@ -234,7 +234,7 @@ a {  /* anchor tags*/
     display: block;
 }
 .text1 {
-    font-size: 75px;
+    font-size: 70px;
     font-weight: 700;
     font-family: 'Bitter', sans-serif;;
     letter-spacing: 5px;
@@ -909,7 +909,18 @@ mark {
     color: #966fd6;
 }
 
+@media (max-width: 1280px) {
+
+    html {
+        scroll-padding-top: 4.5rem;
+    }
+
+
 @media (max-width: 1025px) {
+
+    html {
+        scroll-padding-top: 4.5rem;
+    }
 
     /* SECTION 3: Experience */
     .timeline ul li div {
@@ -1490,6 +1501,10 @@ mark {
 
 @media (max-width: 540px) {
 
+    html {
+        scroll-padding-top: 5rem;
+    }
+
     /* SECTION 3: Experience */
     .timeline ul li div {
         width: 200px;
@@ -1581,6 +1596,11 @@ mark {
 
 @media (max-width: 430px) {
 
+    html {
+        scroll-padding-top: 5rem;
+    }
+
+
     /* SECTION 0: Hero */
     @keyframes text {
         0% {
@@ -1652,6 +1672,10 @@ mark {
 
 @media (max-width: 420px) { /* Media query that changes <nav> element when browser window's at most 420px wide */
     
+    html {
+        scroll-padding-top: 5rem;
+    }
+
     /* SECTION 0: Hero */
     @keyframes text {
         0% {
@@ -1804,6 +1828,10 @@ mark {
 
 @media (max-width: 390px) {
 
+    html {
+        scroll-padding-top: 5rem;
+    }
+
     /* SECTION 0: Hero */
     @keyframes text {
         0% {
@@ -1906,6 +1934,10 @@ mark {
 
 
 @media (max-width: 375px) {
+
+    html {
+        scroll-padding-top: 5rem;
+    }
 
     /* SECTION 3: Experience */
     .timeline h2 {
