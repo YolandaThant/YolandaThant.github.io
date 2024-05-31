@@ -1780,7 +1780,7 @@ mark {
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 370px) {
 
     /* SECTION 3: Experience */
     .timeline h2 {
@@ -1789,7 +1789,6 @@ mark {
     .timeline h3 {
         font-size: 15px;
     }
-
 
     .timeline ul li div {
         width: 140px;
