@@ -1,4 +1,4 @@
-Welcome to my personal porfolio website!
+Welcome to my porfolio website!
 
 Thank you for your interest and time!
 
