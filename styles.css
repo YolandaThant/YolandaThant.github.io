@@ -1043,6 +1043,15 @@ mark {
     }
 }
 
+@media (max-width: 853px) {
+
+    /* SECTION 4: Projects */
+    .container h1 {
+        text-align: center;
+        margin-right: 4rem;
+    }
+}
+
 @media (max-width: 750px) {
 
     .footer button {
@@ -1137,6 +1146,11 @@ mark {
     }
     .timeline ul li:nth-child(even) div {
         left: -330px;
+    }
+
+    /* SECTION 4: Projects */
+    .container h1 {
+        margin-right: 2.5rem;
     }
 
     /* SECTION 5: Contact */
@@ -1264,27 +1278,26 @@ mark {
         font-size: 25px;   
     }
 
-
     /* SECTION 4: Projects */
-    .projects-section {
-        /* margin: 200px;
-        padding: 0 15px; */
-        margin-left: 1rem;
+    .box-container {
+        margin-right: -10px;
     }
     .container h1 {
-        margin-left: 180px;
+        margin-right: 2.5rem;
     }
-    .container .box-container {
-        display: grid;
-        grid-template-columns: repeat(1, minmax(270px, 1fr));
-        gap: 40px;
-        max-width: 850px; /* Sets a max-width to keep it centered */
+    .card h2 {
+        font-size: 19px;
     }
-
+    .card h3 {
+        font-size: 16px;
+    }
+    .card p {
+        font-size: 16px;
+    }
     .container .box-container .card {
-        width: 125%;
-        /* max-width: 550px;  */
-        margin-bottom: 20px;
+        width: 140%;
+        max-width: 550px; 
+        margin-bottom: 40px;
     }
 }
 
@@ -1353,6 +1366,27 @@ mark {
         left: -280px;
     }
 
+    /* SECTION 4: Projects */
+    .box-container {
+        margin-right: -10px;
+    }
+    .container h1 {
+        margin-right: 2.5rem;
+    }
+    .card h2 {
+        font-size: 19px;
+    }
+    .card h3 {
+        font-size: 16px;
+    }
+    .card p {
+        font-size: 16px;
+    }
+    .container .box-container .card {
+        width: 160%;
+        max-width: 550px; 
+        margin-bottom: 40px;
+    }
     
     /* SECTION 5: Contact */
     .contact-section {
@@ -1407,7 +1441,11 @@ mark {
         margin-right: -1px;
     }
     .container h1 {
-        margin-left: 150px;
+        /* margin-left: 150px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .card h2 {
         font-size: 19px;
@@ -1419,7 +1457,7 @@ mark {
         font-size: 14px;
     }
     .container .box-container .card {
-        width: 130%;
+        width: 190%;
         max-width: 550px; 
         margin-bottom: 20px;
     }
@@ -1574,17 +1612,17 @@ mark {
     }
 
     /* SECTION 4: Projects */
-    /* .container h1 {
+    .container h1 {
         margin-right: 4rem;
     }
     .box-container {
         margin-right: 10px;
     }
     .container .box-container .card {
-        width: 130%;
+        width: 190%;
         max-width: 550px; 
         margin-bottom: 40px;
-    } */
+    }
 }
 
 @media (max-width: 420px) { /* Media query that changes <nav> element when browser window's at most 420px wide */
@@ -1866,7 +1904,7 @@ mark {
 
     /* SECTION 4: Projects */
     .box-container {
-        margin-right: -75px;
+        margin-right: 15px;
     }
     .container h1 {
         margin-right: 4rem;
@@ -1881,7 +1919,7 @@ mark {
         font-size: 14px;
     }
     .container .box-container .card {
-        width: 100%;
+        width: 170%;
         max-width: 550px; 
         margin-bottom: 40px;
     }
@@ -1942,6 +1980,14 @@ mark {
     }
     .timeline ul li:nth-child(even) div {
         left: -140px;
+    }
+
+    /* SECTION 4: Projects */
+    .box-container {
+        margin-right: 26px;
+    }
+    .container h1 {
+        margin-right: 4rem;
     }
 }
 
@@ -2010,10 +2056,13 @@ mark {
     /* SECTION 4: Projects */
 
     .box-container {
-        margin-right: -105px;
+        margin-right: 60px;
+    }
+    .container h1 {
+        margin-left: 1rem;
     }
     .container .box-container .card {
-        width: 90%;
+        width: 130%;
         max-width: 550px; 
         margin-bottom: 40px;
     }
