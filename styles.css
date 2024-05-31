@@ -147,13 +147,13 @@ a {  /* anchor tags*/
     font-size: 1.15rem;
     color: var(--text-color);
     font-weight: 500;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
     padding: 0.1rem 0.3rem;
 }
 
 .header .logo:hover,
 .header .navbar a:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: white; /* rgba(0, 0, 0, 0.1) */
     border-radius: 5px;
 }
 
