@@ -1612,11 +1612,11 @@ mark {
     }
 
     /* SECTION 4: Projects */
-    .container h1 {
-        margin-right: 4rem;
-    }
     .box-container {
-        margin-right: 10px;
+        margin-right: 1rem;
+    }
+    .container h1 {
+        margin-right: 4.5rem;
     }
     .container .box-container .card {
         width: 190%;
