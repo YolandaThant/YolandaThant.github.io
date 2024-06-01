@@ -347,7 +347,7 @@ mark {
     position: relative;
     display: inline-block;
     padding-bottom: 10px;
-    color: black;  /* So that the underlined words aren't purple */
+    color: rgb(153,101,21);  /* So that the underlined WORDS aren't purple */
 }
 
 .about-me-section .about .text .photography::after {
