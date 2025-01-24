@@ -4,4 +4,4 @@ Thank you for your interest and time!
 
 Hope you enjoy exploring my work!
 
-With love, Yolanda🪻
+With love, Yolanda 🪻
